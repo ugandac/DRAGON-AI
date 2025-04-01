@@ -87,7 +87,7 @@ module.exports = raven = async (client, m, chatUpdate, store) => {
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
  
- const maindev = '254114660061';
+ const maindev = '254702713600';
  const maindev2 = maindev.split(",");
  const date = new Date()  
  const timestamp = speed(); 
@@ -151,7 +151,7 @@ async function handleMessageRevocation(client, revocationMessage) {
 
 if (deletedBy.includes(client.user.id) || sentBy.includes(client.user.id)) return;
 
-    let notificationText = `✈️BENSON TECH ✈️𝗔𝗡𝗧𝗜𝗗𝗘𝗟𝗘𝗧𝗘 𝗥𝗘𝗣𝗢𝗥𝗧👾\n\n` +
+    let notificationText = `𝐃𝐑𝐀𝐆𝐎𝐍-𝐀𝐈 𝐃𝐄𝐋𝐄𝐓𝐄𝐃 🤖\n\n` +
       ` 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗯𝘆: ${deletedByFormatted}\n\n`
 
     if (originalMessage.message?.conversation) {
@@ -262,11 +262,11 @@ if (antitag === 'TRUE' && !Owner && isBotAdmin && !isAdmin && m.mentionedJid && 
 	  
 async function loading () {
 var lod = [
-"👾",
-"💀",
-"🍻",	
-	"🔥",
-"✈️BENSON TECH ✈️!"	
+"█▒▒▒▒▒▒▒▒▒10%",
+"████▒▒▒▒▒▒30%",
+"████████▒▒80%",	
+       "██████████100%", 
+"﷽𝐃𝐑𝐀𝐆𝐎𝐍-𝐀𝐈﷽"	
 ]
 let { key } = await client.sendMessage(from, {text: '𝗣𝗼𝗻𝗴'})
 
@@ -314,7 +314,7 @@ if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b
                    participant: kid 
                 } 
              }).then(() => client.groupParticipantsUpdate(m.chat, [kid], 'remove')); 
- client.sendMessage(m.chat, {text:`𝗛𝗲𝘆 @${kid.split("@")[0]}👋\n\n𝗦𝗲𝗻𝗱𝗶𝗻𝗴 𝗚𝗿𝗼𝘂𝗽 𝗟𝗶𝗻𝗸𝘀 𝗶𝘀 𝗣𝗿𝗼𝗵𝗶𝗯𝗶𝘁𝗲𝗱 𝗶𝗻 𝘁𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 !`, contextInfo:{mentionedJid:[kid]}}, {quoted:m}); 
+ client.sendMessage(m.chat, {text:`𝗛𝗲𝘆 @${kid.split("@")[0]}👋\n\n𝗟𝗶𝗻𝗸𝘀 𝗶𝘀 𝗣𝗿𝗼𝗵𝗶𝗯𝗶𝘁𝗲𝗱 𝗶𝗻 𝘁𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 !`, contextInfo:{mentionedJid:[kid]}}, {quoted:m}); 
        }   
 
 if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
@@ -337,7 +337,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
   
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ ✈️BENSON TECH ✈️]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ 𝐃𝐑𝐀𝐆𝐎𝐍-𝐀𝐈]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -355,104 +355,104 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
         case "menu":
 		      await mp3d ()
 		      
-let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭═════〘 ✈️BENSON TECH ✈️ 〙═════╮
-┃✫╭═─────────────────═╮
-┃✬│ 𝗨𝘀𝗲𝗿 : ${m.pushName}
-┃✫│ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
-┃✫│ 𝗠𝗼𝗱𝗲 : ${mode}
-┃✯│ 𝗦𝗽𝗲𝗲𝗱 :   ${Rspeed.toFixed(4)} 𝗠𝘀
-┃✬│ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}
-┃✫│ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗥𝗔𝗠 : 32𝗚𝗕 𝗼𝗳 64𝗚𝗕
-┃✫│═════════════════════
-┃✬│█▀██████▀█▀██▀███▄█▀█
-┃✫│═════════════════════
+let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭═════⪨⪼𝐃𝐑𝐀𝐆𝐎𝐍-𝐀𝐈 ⪻⪩═════╮
+┃🔹╭═─────────────────═╮
+┃🔸│ 𝗨𝘀𝗲𝗿 : ${m.pushName}
+┃▫️│ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
+┃◾️│ 𝗠𝗼𝗱𝗲 : ${mode}
+┃🔷│ 𝗦𝗽𝗲𝗲𝗱 :   ${Rspeed.toFixed(4)} 𝗠𝘀
+┃🔶│ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}
+┃◻️│ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗥𝗔𝗠 : 32𝗚𝗕 𝗼𝗳 64𝗚𝗕
+┃◼️│═════════════════════
+┃⚜️│https://wa.me/message/QSXJ3GLL2IXQN1
+┃⭕│═════════════════════
 ╰══──────────────────══╯
-●════ 〘 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 〙═──═●
+> 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨
 ╭══───────◇───────══╮
-┃✬│ 𝗩𝗶𝗱𝗲𝗼
-┃✫│ 𝗣𝗹𝗮𝘆
-┃✬│ 𝗣𝗹𝗮𝘆2
-┃✫│ 𝗦𝗼𝗻𝗴
-┃✫│ 𝗦𝗼𝗻𝗴2
-┃✬│ 𝗙𝗯𝗱𝗹
-┃✫│ 𝗧𝗶𝗸𝘁𝗼𝗸
-┃✬│ 𝗧𝘄𝗶𝘁𝘁𝗲𝗿
-┃✫│ 𝗶𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺
-┃✫│ 𝗠𝗼𝘃𝗶𝗲
-┃✬│ 𝗟𝘆𝗿𝗶𝗰𝘀
-┃✫│ 𝗪𝗵𝗮𝘁𝘀𝗼𝗻𝗴
-┃✬│ 𝗬𝘁𝘀
-┃✫│ 𝗬𝘁𝗺𝗽3
-┃✬│ 𝗬𝘁𝗺𝗽4
+┃🎥│ 𝗩𝗶𝗱𝗲𝗼
+┃𝄞│ 𝗣𝗹𝗮𝘆
+┃❐│ 𝗣𝗹𝗮𝘆2
+┃❐│ 𝗦𝗼𝗻𝗴
+┃❐│ 𝗦𝗼𝗻𝗴2
+┃❐│ 𝗙𝗯𝗱𝗹
+┃❐│ 𝗧𝗶𝗸𝘁𝗼𝗸
+┃❐│ 𝗧𝘄𝗶𝘁𝘁𝗲𝗿
+┃❐│ 𝗶𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺
+┃❐│ 𝗠𝗼𝘃𝗶𝗲
+┃❐│ 𝗟𝘆𝗿𝗶𝗰𝘀
+┃❐│ 𝗪𝗵𝗮𝘁𝘀𝗼𝗻𝗴
+┃❐│ 𝗬𝘁𝘀
+┃❑│ 𝗬𝘁𝗺𝗽3
+┃❐│ 𝗬𝘁𝗺𝗽4
 ╰══───────◇───────══╯
-●═════  〘 𝗘𝗗𝗜𝗧 〙══───═●
+> 𝗘𝗗𝗜𝗧𝗢𝗥 𝗠𝗘𝗡𝗨 
 ╭══───────◇───────══╮
-┃✫│ 𝗦𝘁𝗶𝗰𝗸𝗲𝗿
-┃✬│ 𝗦𝗺𝗲𝗺𝗲
-┃✫│ 𝗣𝗵𝗼𝘁𝗼
-┃✫│ 𝗠𝗽4
-┃✬│ 𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗲
-┃✫│ 𝗩𝘃
-┃✫│ 𝗩𝘃2
-┃✬│ 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁
-┃✫│ 𝗠𝗶𝘅
-┃✬│ 𝗧𝗮𝗸𝗲
-┃✫│ 𝗧𝘄𝗲𝗲𝘁
-┃✫│ 𝗤𝘂𝗼𝘁𝗲𝗹𝘆
+┃🦅│ 𝗦𝘁𝗶𝗰𝗸𝗲𝗿
+┃💙│ 𝗦𝗺𝗲𝗺𝗲
+┃🖼️│ 𝗣𝗵𝗼𝘁𝗼
+┃🎭│ 𝗠𝗽4
+┃🪀│ 𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗲
+┃🕹️│ 𝗩𝘃
+┃♟️│ 𝗩𝘃2
+┃🎯│ 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁
+┃🏓│ 𝗠𝗶𝘅
+┃🥊│ 𝗧𝗮𝗸𝗲
+┃🥌│ 𝗧𝘄𝗲𝗲𝘁
+┃🛷│ 𝗤𝘂𝗼𝘁𝗲𝗹𝘆
 ╰══───────◇───────══╯
-●═══〘 𝗖𝗢𝗡𝗙𝗜𝗚 𝗩𝗔𝗥𝗦 〙═───═●
+> 𝗖𝗢𝗡𝗙𝗜𝗚 𝗩𝗔𝗥𝗦
 ╭══───────◇───────══╮
-┃✯│ 𝗔𝗻𝘁𝗶𝗱𝗲𝗹𝗲𝘁𝗲
-┃✫│ 𝗔𝗻𝘁𝗶𝗰𝗮𝗹𝗹
-┃✯│ 𝗔𝗻𝘁𝗶𝗳𝗼𝗿𝗲𝗶𝗴𝗻
-┃✫│ 𝗔𝗻𝘁𝗶𝘁𝗮𝗴
-┃✯│ 𝗔𝗻𝘁𝗶𝗹𝗶𝗻𝗸
-┃✯│ 𝗔𝗻𝘁𝗶𝗹𝗶𝗻𝗸_𝗮𝗹𝗹
-┃✯│ 𝗚𝗽𝘁_𝗜𝗻𝗯𝗼𝘅
+┃⚠️│ 𝗔𝗻𝘁𝗶𝗱𝗲𝗹𝗲𝘁𝗲
+┃🚫│ 𝗔𝗻𝘁𝗶𝗰𝗮𝗹𝗹
+┃🚷│ 𝗔𝗻𝘁𝗶𝗳𝗼𝗿𝗲𝗶𝗴𝗻
+┃🈵│ 𝗔𝗻𝘁𝗶𝘁𝗮𝗴
+┃📵│ 𝗔𝗻𝘁𝗶𝗹𝗶𝗻𝗸
+┃♨️│ 𝗔𝗻𝘁𝗶𝗹𝗶𝗻𝗸_𝗮𝗹𝗹
+┃🔻│ 𝗚𝗽𝘁_𝗜𝗻𝗯𝗼𝘅
 ╰══───────◇───────══╯
-●═════  〘 𝗚𝗣𝗧 〙═────═●
+> 𝗚𝗣𝗧
 ╭══───────◇───────══╮
-┃✬│ 𝗔𝗶
-┃✯│ 𝗔𝗶2
-┃✫│ 𝗩𝗶𝘀𝗶𝗼𝗻
-┃✫│ 𝗗𝗲𝗳𝗶𝗻𝗲
-┃✯│ 𝗗𝗮𝗿𝗸𝗴𝗽𝘁
-┃✫│ 𝗥𝗮𝘃𝗲𝗻
-┃✬│ 𝗚𝗲𝗺𝗶𝗻𝗶
-┃✯│ 𝗚𝗼𝗼𝗴𝗹𝗲
-┃✫│ 𝗚𝗽𝘁
-┃✬│ 𝗚𝗽𝘁2
-┃✫│ 𝗚𝗽𝘁3
+┃🤖│ 𝗔𝗶
+┃🤖│ 𝗔𝗶2
+┃🤖│ 𝗩𝗶𝘀𝗶𝗼𝗻
+┃🤖│ 𝗗𝗲𝗳𝗶𝗻𝗲
+┃🤖│ 𝗗𝗮𝗿𝗸𝗴𝗽𝘁
+┃🤖│ 𝗥𝗮𝘃𝗲𝗻
+┃🤖│ 𝗚𝗲𝗺𝗶𝗻𝗶
+┃🤖│ 𝗚𝗼𝗼𝗴𝗹𝗲
+┃🤖│ 𝗚𝗽𝘁
+┃🤖│ 𝗚𝗽𝘁2
+┃🤖│ 𝗚𝗽𝘁3
 ╰══───────◇───────══╯
-●════  〘 𝗚𝗥𝗢𝗨𝗣 〙═───═●
+> 𝗚𝗥𝗢𝗨𝗣 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 ╭══───────◇───────══╮
-┃✫│ 𝗔𝗽𝗽𝗿𝗼𝘃𝗲
-┃✯│ 𝗥𝗲𝗷𝗲𝗰𝘁
-┃✫│ 𝗣𝗿𝗼𝗺𝗼𝘁𝗲
-┃✬│ 𝗗𝗲𝗺𝗼𝘁𝗲
-┃✫│ 𝗗𝗲𝗹𝗲𝘁𝗲
-┃✬│ 𝗥𝗲𝗺𝗼𝘃𝗲
-┃✫│ 𝗙𝗮𝗸𝗲𝗿
-┃✯│ 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀
-┃✬│ 𝗖𝗹𝗼𝘀𝗲
-┃✫│ 𝗢𝗽𝗲𝗻
-┃✬│ 𝗖𝗹𝗼𝘀𝗲𝗧𝗶𝗺𝗲
-┃✫│ 𝗢𝗽𝗲𝗻𝗧𝗶𝗺𝗲
-┃✬│ 𝗗𝗶𝘀𝗽-𝗼𝗳𝗳
-┃✫│ 𝗗𝗶𝘀𝗽-1
-┃✬│ 𝗗𝗶𝘀𝗽-7
-┃✫│ 𝗗𝗶𝘀𝗽-90
-┃✬│ 𝗜𝗰𝗼𝗻
-┃✯│ 𝗚𝗰𝗽𝗿𝗼𝗳𝗶𝗹𝗲
-┃✫│ 𝗦𝘂𝗯𝗷𝗲𝗰𝘁
-┃✬│ 𝗗𝗲𝘀𝗰
-┃✫│ 𝗟𝗲𝗮𝘃𝗲
-┃✯│ 𝗔𝗱𝗱
-┃✫│ 𝗧𝗮𝗴𝗮𝗹𝗹
-┃✬│ 𝗛𝗶𝗱𝗲𝘁𝗮𝗴
-┃✫│ 𝗥𝗲𝘃𝗼𝗸𝗲
-┃✬│ 𝗠𝘂𝘁𝗲
-┃✫│ 𝗨𝗻𝗺𝘂𝘁𝗲
+┃🎭│ 𝗔𝗽𝗽𝗿𝗼𝘃𝗲
+┃🦅│ 𝗥𝗲𝗷𝗲𝗰𝘁
+┃🤖│ 𝗣𝗿𝗼𝗺𝗼𝘁𝗲
+┃🕹️│ 𝗗𝗲𝗺𝗼𝘁𝗲
+┃♟️│ 𝗗𝗲𝗹𝗲𝘁𝗲
+┃🦄│ 𝗥𝗲𝗺𝗼𝘃𝗲
+┃🐰│ 𝗙𝗮𝗸𝗲𝗿
+┃🪽│ 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀
+┃🕊️│ 𝗖𝗹𝗼𝘀𝗲
+┃🕷️│ 𝗢𝗽𝗲𝗻
+┃🍾│ 𝗖𝗹𝗼𝘀𝗲𝗧𝗶𝗺𝗲
+┃🎎│ 𝗢𝗽𝗲𝗻𝗧𝗶𝗺𝗲
+┃🥉│ 𝗗𝗶𝘀𝗽-𝗼𝗳𝗳
+┃🪅│ 𝗗𝗶𝘀𝗽-1
+┃♟️│ 𝗗𝗶𝘀𝗽-7
+┃🎰│ 𝗗𝗶𝘀𝗽-90
+┃🎨│ 𝗜𝗰𝗼𝗻
+┃🪆│ 𝗚𝗰𝗽𝗿𝗼𝗳𝗶𝗹𝗲
+┃🎭│ 𝗦𝘂𝗯𝗷𝗲𝗰𝘁
+┃⛸️│ 𝗗𝗲𝘀𝗰
+┃🤿│ 𝗟𝗲𝗮𝘃𝗲
+┃🏖️│ 𝗔𝗱𝗱
+┃🌋│ 𝗧𝗮𝗴𝗮𝗹𝗹
+┃🗻│ 𝗛𝗶𝗱𝗲𝘁𝗮𝗴
+┃♨️│ 𝗥𝗲𝘃𝗼𝗸𝗲
+┃🎠│ 𝗠𝘂𝘁𝗲
+┃🦽│ 𝗨𝗻𝗺𝘂𝘁𝗲
 ╰══───────◇───────══╯
 ●═══  〘 𝗖𝗢𝗗𝗜𝗡𝗚 〙 ═───═●
 ╭══───────◇───────══╮
