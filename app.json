@@ -1,10 +1,10 @@
 {
-  "name": "📛 BENSON-TECHNLOGY 📛",
+  "name": "DRAGON-AI",
   "description": "BELIVE IN CHANGE",
   "keywords": [
     "bot",
     "whatsapp",
-    "raven",
+    "Arlodragon",
     "whatsapp-stickers",
     "anime",
     "whatsapp-bot",
@@ -14,18 +14,20 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/ugandac/Benson-tech-ai#readme",
-  "repository": "https://github.com/ugandac/Benson-tech-ai.git",
-  "logo": "https://i.imgur.com/xFmW8er.jpeg",
+  "website": "https://github.com/Kingdragony/DRAGON-AI#readme",
+  "repository": "https://github.com/Kingdragony/DRAGON-AI.git",
+  "logo": "https://i.imgur.com/tUqZbZd.jpeg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of BENSON-TECHNLOGY Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of DRAGON-AI Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "value": ".",
       "required": false
 
     },
     "DEV": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114660061,27849061633  ",
+      "value": "254702713600",
       "required": true
     },
     "ANTIDELETE": {
@@ -42,10 +44,12 @@
     },
     "ANTIFOREIGN": {
       "description": "Input TRUE if you want bot to automatically remove foreigners who are not from your country code joining a group",
+      "value": "FALSE",
       "required": false
     },
     "HEROKU_API": {
       "description": "Put a Heroku api key here, will be required to update vars in your Dm",
+      "value": "HRKU-1231115c-168e-40ef-b88c-aea5f2b09733",
       "required": true
     },
     "BAD_WORD": {
@@ -70,11 +74,12 @@
 },
  "AUTOVIEW": {
       "description": "Input TRUE if you want bot to automatically read status update",
+      "value": "TRUE",
       "required": true
 },
  "WA_PRESENCE": {
       "description": "Input either recording, typing, online, or leave it blank. This enables bot to simulate typing or recording or online status even if you're not online.",
-      "value": "RECORDING",
+      "value": "recording",
       "required": true
 },
  "WELCOMEGOODBYE": {
@@ -109,15 +114,18 @@
 },
  "MODE": {
       "description": "Input PRIVATE if you don't want other people to use your bot",
+      "value": "PUBLIC",
       "required": true
     },
     
  "AUTOBIO": {
       "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
+      "value": "TRUE",
       "required": false
 },
  "APP_NAME": {
       "description": "Input your app name that you put above, Must be in small letters.",
+      "value": "DRAGON-AI",
       "required": true
 },
  "STICKER_AUTHOR": {
@@ -142,7 +150,7 @@
     },
     "AUTOLIKE_STATUS": {
       "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
-      "value": "FALSE",
+      "value": "TRUE",
       "required": false
     }
   },
