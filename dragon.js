@@ -18,7 +18,7 @@ const Client = new Genius.Client("TUoAEhL79JJyU-MpOsBDkFhJFWFH28nv6dgVgPA-9R1YRw
 const { TelegraPh, UploadFileUgu, webp2mp4File, floNime } = require('./lib/ravenupload');
 const { Configuration, OpenAI } = require("openai");
 const { menu, autoread, mode, antidel, antitag, appname, herokuapi, gptdm, botname, antibot, prefix, author, packname, mycode, admin, botAdmin, dev, group, bad, DevRaven, NotOwner, antilink, antilinkall, wapresence, badwordkick } = require("./set.js");
-const { smsg, runtime, fetchUrl, isUrl, processTime, formatp, tanggal, formatDate, getTime,  sleep, generateProfilePicture, clockString, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/ravenfunc');
+const { smsg, runtime, fetchUrl, isUrl, processTime, formatp, tanggal, formatDate, getTime,  sleep, generateProfilePicture, clockString, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/dragonfunc');
 const { exec, spawn, execSync } = require("child_process");
 module.exports = raven = async (client, m, chatUpdate, store) => {
   try {
@@ -151,7 +151,7 @@ async function handleMessageRevocation(client, revocationMessage) {
 
 if (deletedBy.includes(client.user.id) || sentBy.includes(client.user.id)) return;
 
-    let notificationText = `𝐃𝐑𝐀𝐆𝐎𝐍-𝐀𝐈 𝐃𝐄𝐋𝐄𝐓𝐄𝐃 🤖\n\n` +
+    let notificationText = `𝐃𝐑𝐀𝐆𝐎𝐍-𝐀𝐈 𝐃𝐄𝐋𝐄𝐓𝐄𝐃 𝐌𝐄𝐒𝐒𝐀𝐆𝐄🦄\n\n` +
       ` 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗯𝘆: ${deletedByFormatted}\n\n`
 
     if (originalMessage.message?.conversation) {
@@ -219,7 +219,7 @@ if (budy.startsWith('>')) {
  } 
  
 async function mp3d () {	
-let { key } = await client.sendMessage(m.chat, {audio: fs.readFileSync('./Media/menu.mp3'), mimetype:'audio/mp4', ptt: true}, {quoted: m })
+let { key } = await client.sendMessage(m.chat, {audio: fs.readFileSync('./Media/Classic.mp3'), mimetype:'audio/mp4', ptt: true}, {quoted: m })
 
 }
  
@@ -565,7 +565,7 @@ let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭══�
 ┃✫│ 𝗜𝗺𝗮𝗴𝗲
 ┃✬│ 𝗦𝘆𝘀𝘁𝗲𝗺
 ┃✫╰═───────◇───────═╯
-┃   𝑚𝑎𝑑𝑒 𝑏𝑦 ✈️BENSON TECH ✈️ !
+┃   𝑚𝑎𝑑𝑒 𝑏𝑦 ᴀʀʟᴏᴅʀᴀɢᴏɴ !
 ╰══────────────────══╯`;
 
 if (menu === 'VIDEO') {
@@ -590,7 +590,7 @@ client.sendMessage(m.chat, {
                                 showAdAttribution: true,
                                 title: `𝗗𝗥𝗔𝗚𝗢𝗡-𝗔𝗜`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./Media/Raven.jpg'),
+                                thumbnail: fs.readFileSync('./Media/5aa48452e3c9ed4f644d452c58b0bfac.jpg'),
                                 sourceUrl: 'https://wa.me/254702713600?text=Hello👋+sir+i+need+Dragon+ai😔',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2309,7 +2309,7 @@ m.reply("An error occured.")
 
 //========================================================================================================================//		      
 	      case "alive": case "test": {
-		      const audiovn = "./Media/alive.mp3";
+		      const audiovn = "./Media/Classic.mp3";
     const dooc = {
         audio: {
           url: audiovn
