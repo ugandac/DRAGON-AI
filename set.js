@@ -9,8 +9,8 @@ const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
 const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const welcomegoodbye = process.env.WELCOMEGOODBYE || 'FALSE';
 
-const prefix = process.env.PREFIX || '';
-const appname = process.env.APP_NAME || '';
+const prefix = process.env.PREFIX || '.';
+const appname = process.env.APP_NAME || 'DRAGON-AI';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
 const mode = process.env.MODE || 'PUBLIC';
@@ -38,7 +38,7 @@ const NotOwner = process.env.NOT_OWNER_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗺
 const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const mycode = process.env.CODE || '255';
-const antiforeign = process.env.ANTIFOREIGN || 'TRUE';
+const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const port = process.env.PORT || 10000;
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
