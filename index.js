@@ -54,7 +54,7 @@ async function startRaven() {
     )
   );
 
-  const client = ravenConnect({
+  const client = dragonConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
     browser: ["DRAGON-AI", "Safari", "5.1.7"],
