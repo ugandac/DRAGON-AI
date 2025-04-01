@@ -88,14 +88,14 @@ async function startRaven() {
     console.log('Decoded JID:', nickk);
     if (!mek.status) {
         console.log('Sending reaction to:', mek.key.remoteJid);
-        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🎭' } }, { statusJidList: [mek.key.participant, nickk] });
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '⚠️' } }, { statusJidList: [mek.key.participant, nickk] });
         console.log('Reaction sent');
     }
 }
             
 if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       let m = smsg(client, mek, store);
-      const raven = require("./raven");
+      const raven = require("./dragon");
       raven(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
@@ -159,7 +159,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
             const currentTime = Date.now();
       if (currentTime - lastTextTime >= messageDelay) {
         await client.sendMessage(callerId, {
-          text: "Anticall is active, Only texts are allowed"
+          text: "Dragon-ai is active calling this account is not allowed🤖"
         });
         lastTextTime = currentTime;
       } else {
