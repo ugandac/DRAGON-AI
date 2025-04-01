@@ -44,7 +44,7 @@ async function startRaven() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("BENSON-TECH", {
+      figlet.textSync("DRAGON-AI", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -57,7 +57,7 @@ async function startRaven() {
   const client = ravenConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["BENSON - AI", "Safari", "5.1.7"],
+    browser: ["DRAGON - AI", "Safari", "5.1.7"],
     auth: state,
     syncFullHistory: true,
   });
@@ -88,7 +88,7 @@ async function startRaven() {
     console.log('Decoded JID:', nickk);
     if (!mek.status) {
         console.log('Sending reaction to:', mek.key.remoteJid);
-        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '⚠️' } }, { statusJidList: [mek.key.participant, nickk] });
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🐯' } }, { statusJidList: [mek.key.participant, nickk] });
         console.log('Reaction sent');
     }
 }
@@ -245,10 +245,10 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       }
     } else if (connection === "open") {
       await client.groupAcceptInvite("I5xIShFtrk43tfaWEmppNH");
-      console.log(color("Congrats, BENSON-BOT has successfully connected to this server", "green"));
+      console.log(color("Congrats, DRAGON-AI has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Arlodragon", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 » » »【BENSON-BOT】 ` });
+      client.sendMessage(client.user.id, { text: `𝙔𝙊𝙐 𝘼𝙍𝙀 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿 𝙏𝙊 ➬【𒆜𝘿𝙍𝘼𝙂𝙊𝙉-𝘼𝙄𒈒】 ` });
     }
   });
 
@@ -291,7 +291,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
     let type = '', mimetype = mime, pathFile = filename;
     if (options.asDocument) type = 'document';
     if (options.asSticker || /webp/.test(mime)) {
-      let { writeExif } = require('./lib/ravenexif.js');
+      let { writeExif } = require('./lib/dragonexif.js');
       let media = { mimetype: mime, data };
       pathFile = await writeExif(media, { packname: packname, author: packname, categories: options.categories ? options.categories : [] });
       await fs.promises.unlink(filename);
@@ -403,3 +403,4 @@ fs.watchFile(file, () => {
   delete require.cache[file];
   require(file);
 });
+    
