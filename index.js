@@ -29,8 +29,8 @@ const messageDelay = 5000;
 const event = require('./action/events');
 const authenticationn = require('./action/auth');
 const PhoneNumber = require("awesome-phonenumber");
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/ravenexif');
-const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/ravenfunc');
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dragonexif');
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dragonfunc');
 const { sessionName, session, autobio, autolike, port, mycode, anticall, antiforeign, packname, autoviewstatus } = require("./set.js");
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 const color = (text, color) => {
