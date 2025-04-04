@@ -29,8 +29,8 @@ const messageDelay = 5000;
 const event = require('./action/events');
 const authenticationn = require('./action/auth');
 const PhoneNumber = require("awesome-phonenumber");
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dragonexif');
-const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dragonfunc');
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/ravenexif');
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/ravenfunc');
 const { sessionName, session, autobio, autolike, port, mycode, anticall, antiforeign, packname, autoviewstatus } = require("./set.js");
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 const color = (text, color) => {
@@ -44,7 +44,7 @@ async function startRaven() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("DRAGON-AI", {
+      figlet.textSync("BENSON-TECH", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -54,10 +54,10 @@ async function startRaven() {
     )
   );
 
-  const client = dragonConnect({
+  const client = ravenConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["DRAGON-AI", "Safari", "5.1.7"],
+    browser: ["BENSON - AI", "Safari", "5.1.7"],
     auth: state,
     syncFullHistory: true,
   });
@@ -66,7 +66,7 @@ async function startRaven() {
     setInterval(() => {
       const date = new Date();
       client.updateProfileStatus(
-        `${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.`
+        `${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { blessedmike: 'long', timeZone: 'Africa/Nairobi'})}.`
       );
     }, 10 * 1000);
   }
@@ -88,7 +88,7 @@ async function startRaven() {
     console.log('Decoded JID:', nickk);
     if (!mek.status) {
         console.log('Sending reaction to:', mek.key.remoteJid);
-        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🐯' } }, { statusJidList: [mek.key.participant, nickk] });
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '💚' } }, { statusJidList: [mek.key.participant, nickk] });
         console.log('Reaction sent');
     }
 }
@@ -159,7 +159,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
             const currentTime = Date.now();
       if (currentTime - lastTextTime >= messageDelay) {
         await client.sendMessage(callerId, {
-          text: "Dragon-ai is active calling this account is not allowed🤖"
+          text: "Anticall is active, Only texts are allowed"
         });
         lastTextTime = currentTime;
       } else {
@@ -245,10 +245,10 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       }
     } else if (connection === "open") {
       await client.groupAcceptInvite("I5xIShFtrk43tfaWEmppNH");
-      console.log(color("Congrats, DRAGON-AI has successfully connected to this server", "green"));
+      console.log(color("Congrats, BENSON-BOT has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Arlodragon", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝙔𝙊𝙐 𝘼𝙍𝙀 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿 𝙏𝙊 ➬【𒆜𝘿𝙍𝘼𝙂𝙊𝙉-𝘼𝙄𒈒】 ` });
+      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 » » »【BENSON-BOT】 ` });
     }
   });
 
@@ -291,7 +291,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
     let type = '', mimetype = mime, pathFile = filename;
     if (options.asDocument) type = 'document';
     if (options.asSticker || /webp/.test(mime)) {
-      let { writeExif } = require('./lib/dragonexif.js');
+      let { writeExif } = require('./lib/ravenexif.js');
       let media = { mimetype: mime, data };
       pathFile = await writeExif(media, { packname: packname, author: packname, categories: options.categories ? options.categories : [] });
       await fs.promises.unlink(filename);
@@ -403,4 +403,3 @@ fs.watchFile(file, () => {
   delete require.cache[file];
   require(file);
 });
-    
