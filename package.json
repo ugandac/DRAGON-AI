@@ -1,6 +1,6 @@
 { 
-   "name": "RAVEN-AI", 
-   "version": "2.0.0", 
+   "name": "DRAGON-AI", 
+   "version": "1.0.0", 
    "description": "WhatsApp Multi Device Bot", 
    "main": "index.js", 
    "type": "commonjs", 
@@ -18,11 +18,11 @@
      "bot-md", 
      "whatsapp-multi-device" 
    ], 
-   "base": "https://github.com/DikaArdnt/Hisoka-Morou", 
+   "base": "https://github.com/Kingdragony/DRAGON-AI", 
    "author": "Nick Hunter", 
    "license": "MIT", 
    "dependencies": { 
-     "@whiskeysockets/baileys": "^6.7.16",
+     "@whiskeysockets/baileys": "^6.6.0",
      "@adiwajshing/keyed-db": "^0.2.4", 
      "@hapi/boom": "^10.0.0",
      "@google/generative-ai":"^0.1.3",
@@ -87,10 +87,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/HunterNick2/RAVEN-BOT.git" 
+     "url": "git+https://github.com/Kingdragony/DRAGON-AI.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/HunterNick2/RAVEN-BOT/issues" 
+     "url": "https://github.com/Kingdragony/DRAGON-AI/issues" 
    }, 
-   "homepage": "https://github.com/HunterNick2/RAVEN-BOT#readme" 
+   "homepage": "https://github.com/Kingdragony/DRAGON-AI#readme" 
    }
