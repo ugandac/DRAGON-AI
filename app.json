@@ -1,6 +1,6 @@
 {
-  "name": "📛 BENSON-TECHNLOGY 📛",
-  "description": "BELIVE IN CHANGE",
+  "name": "👾FATHELA-T-AI BOT👾",
+  "description": "WHATSAPP BOT DEVELOPED BY FATHELA🐯",
   "keywords": [
     "bot",
     "whatsapp",
@@ -14,13 +14,14 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/ugandac/Benson-tech-ai#readme",
-  "repository": "https://github.com/ugandac/Benson-tech-ai.git",
-  "logo": "https://i.imgur.com/xFmW8er.jpeg",
+  "website": "https://github.com/ugandac/Fathela-ai-xmd#readme",
+  "repository": "https://github.com/ugandac/Fathela-ai-xmd.git",
+  "logo": "https://i.imgur.com/V1Q0BbQ.jpeg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of BENSON-TECHNLOGY Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of FATHELA-T Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "value": ".",
       "required": false
 
     },
@@ -141,7 +142,7 @@
 },
  "MENU_TYPE": {
       "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
-      "value": "IMAGE",
+      "value": "VIDEO",
       "required": false
  },
     "AUTOLIKE_STATUS": {
