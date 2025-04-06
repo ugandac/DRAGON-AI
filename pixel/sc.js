@@ -20,3 +20,10 @@ fetch('/set.js')
     container.appendChild(statusSection);
   })
   .catch(error => console.error('Error fetching settings:', error));
+
+
+
+
+
+
+
