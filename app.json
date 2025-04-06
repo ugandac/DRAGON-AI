@@ -4,7 +4,7 @@
   "keywords": [
     "bot",
     "whatsapp",
-    "raven",
+    "dragon",
     "whatsapp-stickers",
     "anime",
     "whatsapp-bot",
@@ -14,19 +14,19 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/ugandac/Fathela-ai-xmd#readme",
-  "repository": "https://github.com/ugandac/Fathela-ai-xmd.git",
+  "website": "https://github.com/Kingdragony/DRAGON-AI#readme",
+  "repository": "https://github.com/Kingdragony/DRAGON-AI.git",
   "logo": "https://i.imgur.com/V1Q0BbQ.jpeg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of FATHELA-T Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of DRAGON-AI Ex: . , / , # , & etc. Put any symbol or leave it blank",
       "value": ".",
       "required": false
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114660061,27849061633  ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254702713600,254746764468",
       "value": "254702713600",
       "required": true
     },
@@ -120,19 +120,22 @@
     
  "AUTOBIO": {
       "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
+      "value": "TRUE",
       "required": false
 },
  "APP_NAME": {
       "description": "Input your app name that you put above, Must be in small letters.",
-     "value": "BENSON-TECH",
+     "value": "DRAGON-AI",
      "required": true
 },
  "STICKER_AUTHOR": {
       "description": "Input sticker data for author",
+      "value": "Arlodragon 🐯",
       "required": false
 },
  "STICKER_PACKNAME": {
       "description": "Input sticker data for packname",
+      "value": "Dragon-ai",
       "required": false
 },
  "GPT_INBOX": {
