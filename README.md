@@ -15,6 +15,9 @@ Dragon-ai is a simple WhatsApp bot developed by Arlodragon 💀 GIVE A STAR ✨
 
 ------------------------------------------
 
+***`𝐒𝐓𝐀𝐑 ⭐` repository & Click [`𝐅𝐎𝐑𝐊`](https://github.com/Kingdragony/DRAGON-AI/fork)***
+
+  
 **Genenerate pairing code**
 
 
