@@ -87,10 +87,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/ugandac/Ard-xbot.git" 
+     "url": "git+https://github.com/Kingdragony/DRAGON-AI.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/ugandac/Ard-xbot/issues" 
+     "url": "https://github.com/Kingdragony/DRAGON-AI/issues" 
    }, 
-   "homepage": "https://github.com/ugandac/Ard-xbot#readme" 
+   "homepage": "https://github.com/Kingdragony/DRAGON-AI#readme" 
    }
