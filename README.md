@@ -11,7 +11,7 @@
 <p align="center">
 
  <a href="https://www.youtube.com/@RADIOACTIVE-TECH">
-    <img alt="Suhail docs" height="300" src="./lib/VID-20250331-WA0010.mp4"  old_src= "https://telegra.ph/file/c26ca33cb2b3b44bfe4ab.jpg">
+    <img alt="Suhail docs" height="300" src="./lib/VID-20250331-WA0010.mp4"  old_src= "https://i.imgur.com/tUqZbZd.jpeg">
   </a>
 </p>
   
