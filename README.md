@@ -11,7 +11,7 @@
 <p align="center">
 
    <a href="https://youtube.com/c/SuhailTechInfo">
-    <img alt="Suhail docs" height="300" src="https://i.imgur.com/tUqZbZd.jpeg">
+    <img alt="DRAGON-AI" height="300" src="https://i.imgur.com/tUqZbZd.jpeg">
   </a>
 </p>
   
