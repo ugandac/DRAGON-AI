@@ -11,7 +11,7 @@
 <p align="center">
 
    <a href="https://youtube.com/c/SuhailTechInfo">
-    <img alt="Suhail docs" height="300" src="./lib/VID-20250331-WA0010.mp4"  old_src= "https://i.imgur.com/tUqZbZd.jpeg">
+    <img alt="Suhail docs" height="300" src="https://i.imgur.com/tUqZbZd.jpeg">
   </a>
 </p>
   
