@@ -1,11 +1,11 @@
-## ☠️ DRAGON-AI ☠️
+## DRAGON-AI 
 ----
 
 ***BOT FEATURES 💌***
 
-| Menu ⁠➜ | Bot | Group | Search | Download | Tools | Ai | Game | Fun | Owner | Bug | Convert | List |
+| CMD  ⁠➜ | Bot | Group cmds| ai Search | Download | Tools | Ai | Game | Fun | Owner | Bug | Convert | List |
 | --------| --- | ----- | ------ | -------- | ----- | -- | ---- | --- | ----- | ----| --------| -----|
-| Work ➜ |  ✅ |   ✅  |    ✅  |     ✅   |   ✅  | ✅ |   ✅ |  ✅ |  ✅   | ✅  |    ✅   |  ✅  |
+| Working➜|✅  |   ✅  |    ✅  |     ✅   |   ✅  | ✅ |   ✅ |  ✅ |  ✅   | ✅  |    ✅   |  ✅  |
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 <p align="center">
