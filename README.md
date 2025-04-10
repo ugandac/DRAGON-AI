@@ -45,7 +45,24 @@
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
-3.***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Kingdragony/DRAGON-AI&template=https://github.com/Kingdragony/DRAGON-AI.git)***
+3.𝗛𝗘𝗥𝗢𝗞𝗨 𝗕𝗨𝗜𝗟𝗗𝗣𝗔𝗖𝗞𝗦.
+                               
+ ```bash
+heroku/nodejs
+```
+```bash
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+
+ ````
+```bash
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+
+```
+## 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓 𝐏𝐑𝐎𝐂𝐄𝐒𝐒🎭
+𝐂𝐑𝐄𝐀𝐓𝐄 𝐀𝐏𝐏 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔 
+𝐀𝐃𝐃 𝐁𝐔𝐈𝐋𝐃𝐏𝐀𝐂𝐊𝐒
+𝐋𝐎𝐂𝐀𝐓𝐄 𝐃𝐑𝐀𝐆𝐎𝐍-𝐀𝐈 𝐀𝐍𝐃 𝐂𝐎𝐍𝐍𝐄𝐂𝐓
+𝐃𝐄𝐏𝐋𝐎𝐘 𝐁𝐑𝐀𝐍𝐂𝐇
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
