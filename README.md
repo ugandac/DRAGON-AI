@@ -35,11 +35,13 @@
  
 
  
-## 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍🛸
+# 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍
 ---
-1. ***Get [`SESSION ID`](https://music-pair-glim.onrender.com/pair)  by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [`𝐂𝐑𝐄𝐃𝐒.𝐉𝐒𝐎𝐍`](https://tyrax-session-2.onrender.com/pair)  by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+# 𝐌𝐔𝐒𝐓 𝐂𝐑𝐄𝐀𝐓𝐄 𝐅𝐎𝐑𝐊 ⚠️
 
 2.  ***`Star ⭐` repository & Click [`FORK`](https://github.com/Kingdragony/DRAGON-AI/fork)***
 
