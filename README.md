@@ -41,7 +41,7 @@
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
-# 𝐌𝐔𝐒𝐓 𝐂𝐑𝐄𝐀𝐓𝐄 𝐅𝐎𝐑𝐊 ⚠️
+# 𝐌𝐔𝐒𝐓 𝐂𝐑𝐄𝐀𝐓𝐄 𝐅𝐎𝐑𝐊 
 
 2.  ***`Star ⭐` repository & Click [`FORK`](https://github.com/Kingdragony/DRAGON-AI/fork)***
 
